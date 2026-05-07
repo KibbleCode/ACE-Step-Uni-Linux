@@ -22,8 +22,6 @@ Windows
 
 Run the installer:
 
-BATCH
-
 INSTALL.bat
 
 Or manually execute:
@@ -36,14 +34,10 @@ Linux
 
 Make scripts executable and run:
 
-BASH
-
 chmod +x Linux-Fork/ace-step.sh Linux-Fork/ace-step-standalone.sh
 ./Linux-Fork/ace-step.sh
 
 For standalone usage:
-
-BASH
 
 ./Linux-Fork/ace-step-standalone.sh
 
@@ -63,17 +57,13 @@ Usage
 
 Launch the application:
 
-BASH
-
 # Windows
 .\installer\launcher.py
 
 # Linux
-python3 Linux-Fork/launcher.py
+python3 Linux-Fork/ace-step-standalone.sh
 
 Download required AI models:
-
-BASH
 
 ./Linux-Fork/download_models_qt
 
